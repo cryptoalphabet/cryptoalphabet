@@ -1,0 +1,16 @@
+{% if folderitem.external_url %}
+    <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>```
+
+
+You can see that the `external_url` is a condition that applies a different formatting. Although this feature is available, I recommend putting any external navigation links in the top navigation bar instead of the side navigation bar.
+
+## Sidebar item highlighting
+
+The sidebar.html file inserts an `active` class into the sidebar element when the `url` attribute in the sidebar data file matches the page URL.
+
+For example, the sidebar.html file contains the following code:
+
+
+```liquid
+{% elsif page.url == folderitem.url %}
+   <li class="active"><a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li
