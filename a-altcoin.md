@@ -1,3 +1,6 @@
+A Is For Altcoin
+------------------
+
 Altcoins are cryptocurrencies that provide an alternative to [Bitcoin](https://www.publish0x.com/the-crypto-enthusiast-blog-intro/what-is-bitcoin-btc-the-origins-rise-and-potential-future-fo-xorzmn).
 
 The term is not absolute: it can refer to any cryptocurrency that is not Bitcoin, or it can refer to cryptocurrencies that exist below an arbitrary ranking that is outside of mainstream awareness.
